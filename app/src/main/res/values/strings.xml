@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MYue</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="pink">Pink</string>
+    <string name="video">视频</string>
+
+    <string name="subitem01">SubItem01</string>
+    <string name="subitem02">SubItem02</string>
+    <string name="subitem03">SubItem03</string>
+    <string name="subitems">SubItems</string>
+    <string name="subitem04">SubItem04</string>
+    <string name="subitem05">SubItem05</string>
+    <string name="subitem06">SubItem06</string>
+    <string name="todo">TODO</string>
+</resources>
