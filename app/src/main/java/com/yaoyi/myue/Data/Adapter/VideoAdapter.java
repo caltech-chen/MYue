@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.yaoyi.myue.R;
-import com.yaoyi.myue.UI.HomeActivity;
+import com.yaoyi.myue.UI.LocalVideoListActivity;
 import com.yaoyi.myue.UI.TimeFormatUtils;
 
 import java.io.File;
@@ -23,7 +23,7 @@ import java.io.File;
  * 本地视频列表
  */
 public class VideoAdapter extends CursorAdapter {
-    HomeActivity activity;
+    LocalVideoListActivity activity;
 
     MediaMetadataRetriever retriever;
 
@@ -40,7 +40,7 @@ public class VideoAdapter extends CursorAdapter {
         super(context, c, flags);
     }
 
-    public void setMediaSelectVideoActivity(HomeActivity activity) {
+    public void setMediaSelectVideoActivity(LocalVideoListActivity activity) {
         this.activity = activity;
     }
 

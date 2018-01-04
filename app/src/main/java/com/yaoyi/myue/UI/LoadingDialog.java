@@ -51,6 +51,7 @@ public class LoadingDialog extends Dialog {
         super(context, R.style.dialog_style);
         this.cancelable = cancelable;
         this.strTips = tips;
+
     }
 
 
@@ -136,6 +137,7 @@ public class LoadingDialog extends Dialog {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
             setContentView(R.layout.t_loading);
         setCancelable(cancelable);
         findViews();

@@ -17,4 +17,8 @@
     <string name="subitem05">SubItem05</string>
     <string name="subitem06">SubItem06</string>
     <string name="todo">TODO</string>
+    <string name="title_activity_online_video">OnlineVideoActivity</string>
+    <string name="change_filter">左右滑动切换滤镜哟...</string>
+    <string name="confirm_to_editor_video">点击确定分离音频</string>
+
 </resources>

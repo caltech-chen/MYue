@@ -29,4 +29,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(home);
 
     }
+
+    @Override
+    public void onStop(){
+        super.onStop();
+        this.finish();//应用启动后不再返回当前界面
+    }
 }
